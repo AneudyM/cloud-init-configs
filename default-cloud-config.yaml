@@ -1,0 +1,10 @@
+apt_update: true
+apt_upgrade: true
+
+packages:
+  - git
+
+runcmd:
+  - curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
+  - apt update
+  - apt install nodejs
