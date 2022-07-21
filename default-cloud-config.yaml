@@ -8,4 +8,4 @@ runcmd:
   - curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
   - apt update
   - apt install nodejs
-  - git clone https://github.com/AneudyM/CodeNotaryCAS.git /home/$(whoami)
+  - git clone https://github.com/AneudyM/CodeNotaryCAS.git /home/ubuntu
